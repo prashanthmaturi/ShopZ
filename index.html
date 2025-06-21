@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <title>ShopZ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+            <div class="logo">ShopZ</div>
+            <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+            <div class="cart" onclick="toggleCart()">🛒 Cart (<span id="cart-count">0</span>)</div>
+            </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <h1>ShopZ</h1>
+        <p>Your one-stop solution for all shopping needs</p>
+        <button onclick="showProducts()"><a href="#products">Shop Now</a></button>
+    </section>
+
+    <section id="products" class="products-section">
+        <h2>Our Products</h2>
+        <div class="products-container" id="products-container">
+            <!-- Products will be inserted here by JavaScript -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ShopZ. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
