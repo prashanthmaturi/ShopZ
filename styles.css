@@ -57,10 +57,6 @@ nav{
     color: #ff6347;
 }
 
-.topstick{
-position:sticky;
-    top:20px;
-}
 .hero-section {
     color: #fff;
     height: 90vh;
